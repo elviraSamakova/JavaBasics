@@ -3,14 +3,23 @@ package com.syntax.class01;
 public class Hello {
 	
 	public static void main (String[] args) {
-		//this is my comment
+		int m=2, total=0;
+
+		while(m<6) {
+
+		   total=total+m;
+
+		   m++;
+
+		}
+
+		System.out.print(total);
+
 		
-		/* this is 
-		 * multyline
-		 */ 
-		
-		System.out.println("Hello");		
-		 
+
+		    }
+
+
 	}
 
-}
+
