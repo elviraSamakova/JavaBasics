@@ -14,7 +14,7 @@ public class FromTeacher {
 	        
 //	      char someLetter=str.charAt(55);// RunTime Exception --> StringIndexOutOfBoundsException
 //	      System.out.println(someLetter);
-	        
+	         
 	        //get all characters 1 by 1 from a String?
 	        char letter;
 	        for(int i=0; i<str.length(); i++) {

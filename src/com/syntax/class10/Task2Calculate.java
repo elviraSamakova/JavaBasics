@@ -13,5 +13,5 @@ public class Task2Calculate {
 		System.out.print(total);
 
 	}
-
+	 
 }

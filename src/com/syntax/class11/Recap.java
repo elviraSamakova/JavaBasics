@@ -20,7 +20,7 @@ public class Recap {
 		for (String [] array:groceries) {
 			for (String items:array) {
 				System.out.print(items+" ");
-			}
+			} 
 			System.out.println();
 		}
 		
