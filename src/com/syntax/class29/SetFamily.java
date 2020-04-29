@@ -15,7 +15,7 @@ public class SetFamily {
 		veggies.add("potato");
 		veggies.add("cucumber");
 		veggies.add("tomato");
-		System.out.println(veggies);
+		//System.out.println(veggies);
 		
 		//LinkedHashSet guarantee insertion order
 		Set<String>fruits=new LinkedHashSet<>();
@@ -26,7 +26,7 @@ public class SetFamily {
 		fruits.add("banana");
 		fruits.add("mango");
 		fruits.add("tomato");
-		System.out.println(fruits);
+		//System.out.println(fruits);
 		
 		//tree set stores objects in ascending order
 		Set<Object> food=new TreeSet<>(veggies);

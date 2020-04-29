@@ -28,5 +28,7 @@ public class MapEntry {
 			Entry <String, Integer> entry= itr.next();
 			System.out.println("Key "+entry.getKey()+"== Value"+entry.getValue());
 	}
+		
+		System.out.println(month.size());
 	}
 }

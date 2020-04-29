@@ -14,6 +14,8 @@ public class Task {
 		country.put("Madagaskar", "Antananarivu");
 		country.put("Russia", "Moskow");
 		
+		
+		
 		for (String key:country.keySet()) {
 			System.out.println("Key is "+key);
 		}
