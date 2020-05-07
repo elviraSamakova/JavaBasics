@@ -31,17 +31,7 @@ public class PropertiesFilesReading {
 			System.out.println(k);
 		}
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		
 	} 
 
