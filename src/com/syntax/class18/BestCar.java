@@ -12,21 +12,24 @@ public void printDetails() {
 }
 
 BestCar(String carMake, String carModel, String carColor, int carYear, int carDoor, int carWheels){
-	make=carMake;
+	make=carMake;  //carMake=this.make;
 	model=carModel;
 	color=carColor;
-	year=carYear;
+	year=carYear; 
 	door=carDoor;
 	wheels=carWheels;
 }
 
 public static void main(String[] args) {
 	//once we create our own constructor compiler WILL NOT be creating a default constructor for you!!!
-	//BestCar car=new BestCar(); CE
+	BestCar car=new BestCar();    //CE this is defaukt const
 	
-	BestCar car=new BestCar("BMW", "m5", "Grey", 2020, 4, 5);
-	car.printDetails();
+//	BestCar car=new BestCar("BMW", "m5", "Grey", 2020, 4, 5);
+//	car.printDetails(); 
 	
 	//new BestCar("Toyota", "Camry", 2020, 2, 4, "Blue");CE: swap arguments
+	
+	car.printDetails();
+	
 }
 }
